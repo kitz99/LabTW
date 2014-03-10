@@ -1,0 +1,47 @@
+#warp {
+    width: 1200px;
+    margin:auto;
+}
+.banner{
+    background-image: url("banner.png");
+    width:1200px;
+    height:587px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    margin-left: 15px;
+    font-family: sans-serif;
+}
+.pret{
+    float:right;
+}
+
+
+article p {
+    padding-left: 20px;
+}
+.pret{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #660000;
+}
+
+.del{
+    border-bottom: solid, 3px, #000;
+    border-bottom-color: #000;
+    border-bottom-style: solid;
+
+
+}
+
+.left{
+    width: 320px;
+    float: left;
+    margin-right:80px;
+    margin-bottom: 35px;
+}
+.poza{
+    margin-top: -15px;
+    margin-left: 15px;
+}
