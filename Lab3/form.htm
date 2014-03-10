@@ -1,0 +1,88 @@
+<!Doctype html>
+<html lang = "ro">
+    <head>
+        <meta charset="utf-8">
+        <title>Formular + quizz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Formular +  quizz</h1>
+        <section class = "formular">
+            <h1>Formular de Contact</h1>
+            <form>
+                <p><label>
+                    Nume: <span class = "nume1"><input type="text" name = "Nume" class = "nume"></span>
+                </label>
+                </p>
+                <p>
+                <label>
+                    Prenume: <span class = "nume2"><input type="text" name = "Prenume" class = "nume"></span>
+                </label>
+                </p>
+                <p>
+                    <label>
+                        Email: <span class = "EML"><input type="email" name = "Email" class = "nume"></span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Mesajul dumneavoastra:<br /> <span class = "nume4"><textarea rows="10" cols="29"  class = "nume"></textarea></span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <button type="submit">Trimite Formular</button>
+                    </label>
+                    <label><button type="reset">Reseteaza</button></label>
+                </p>
+            </form>
+        </section>
+        <section class = "quizz">
+            <h1>Acesta este un quizz</h1>
+            <form>
+                <ol>
+                <li>
+                    <h2>Intrebarea 1:</h2>
+                    <input type="radio" name = "i1" class = "raspuns"> Raspuns 1;<br />
+                    <input type="radio" name = "i1" class = "raspuns"> Raspuns 2;<br />
+                    <input type="radio" name = "i1" class = "raspuns"> Raspuns 3;<br />
+                </li>
+                <li>
+                    <h2>Intrebarea 2:</h2>
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 1;<br />
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 2;<br />
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 3;<br />
+                </li>
+                <li>
+                    <h2>Intrebarea 3:</h2>
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 1;<br />
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 2;<br />
+                    <input type="checkbox" name = "i1" class = "raspuns"> Raspuns 3;<br />
+                </li>
+                <li>
+                    <h2>Pe o scara de la 1 la 10 cat de mult va place?</h2>
+                    <input type="range" name="procents" min="1" max="10" step="1">
+                </li>
+                <li>
+                    <h2>Culoarea favorita:<input type="color" name="favcolor"></h2>
+                    
+                </li>
+                <li>
+                    <h2>Data de nastere: <input type="datetime" name="bdaytime"></h2>
+                </li>
+               <li>
+                   <h2>Calitatea dumneavoastra:</h2>
+                   <select>
+                       <option value="student">Student</option>
+                       <option value="elev">Elev</option>
+                       <option value="pf">Persoana Fizica</option>
+                       <option value="pj">Persoana juridica</option>
+                   </select>
+               </li>
+            </ol>
+                <button type="submit">Trimite Formular</button>
+                <button type="reset">Completeaza iarasi</button>
+            </form>
+        </section>
+    </body>
+</html>
