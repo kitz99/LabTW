@@ -1,0 +1,110 @@
+/*Fisier CSS */
+header {
+    width:100%;
+    border:black thin solid;
+}
+.logo{
+    width: 100px;
+    height:40px;
+    background-color: red;
+    position: absolute;
+    top:6%;
+    left:6%;
+}
+header h1 {
+    width:20%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.sectiune1{
+    width:100%;
+    border:black thin solid;
+}
+
+.imaginea {
+    width:40%;
+    margin-top:2%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.cuText{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cuText h2{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.imagineaMea:hover {
+    -webkit-transform:rotate(45deg);
+}
+.paragraful{
+    text-align: center;
+}
+
+.parteaStanga{
+    border:red thin solid;
+    width: 60%;
+    margin-left:1%;
+    float:left;
+    margin-top:2%;
+}
+
+.parteaDreapta{
+    float:left;
+    width:30%;
+    margin-left:6%;
+    border:black thin solid;
+    margin-top:2%;
+}
+footer {
+    clear:both;
+    padding-top: 10%;
+}
+.sidebar {
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+.sidebar button {
+    width:30%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.baraDiferita{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    border:black thin solid;
+    border-radius: 30px;
+    margin-top:10%;
+}
+.baraDiferita p {
+    font-size: 0.8em;
+}
+
+.proiecte {
+    width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+.proiecte h2 {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.proiect1{
+    float:left;
+
+}
+.proiect2{
+    float:left;
+    margin-left:10%;
+}

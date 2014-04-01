@@ -1,0 +1,33 @@
+.poezii{
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.likeh2 {
+    margin-left: 15px;
+}
+.poezia1{
+    float: left;
+    margin-right:400px;
+}
+.poezia2{
+    float: left;
+
+}
+.titluPoezie{
+    font-weight: bold;
+}
+.povestiri{
+    clear:left;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.autor{
+    margin-left:25px;
+    font-size: 0.7em;
+}
+.pov{
+    text-align: justify;
+    text-indent: 5em;
+}

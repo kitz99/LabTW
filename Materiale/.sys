@@ -1,0 +1,50 @@
+ .menu {
+                color:red;
+                
+            }
+            nav ul {
+                list-style-type:none;
+            }
+            .sus{
+                float:left;
+                width:100px;
+                background-color: yellow;
+                text-align: center;
+            }
+            .submenu{
+                display:none;
+            }
+            .triger{
+                cursor: pointer;
+            }
+            .triger:hover .submenu{
+                display:block;
+                margin-left:-40px;
+                position:relative;
+            }
+            .submenu li {
+                width: 100px;
+                border-bottom:1px solid #ff0000;
+            }
+            .submenu li:hover{
+                cursor:pointer;
+                background-color:#A2AA56;
+            }
+            
+            
+            
+<nav class = "menu">
+            <ul class = "princ">
+                <li class = "sus">Item 1</li>
+                <li class = "sus">Item 2</li>
+                <li class = "sus triger">Item 3
+                    <ul class = "submenu">
+                        <li>Subitem 1</li>
+                        <li>Subitem 2</li>
+                        <li>Subitem 3</li>
+                    </ul>
+                </li>
+                <li class = "sus">Item 4</li>
+            </ul>
+        </nav>
+        <br /><br /><br /><br /><br /><br /><br />
