@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="utf-8" />
+        <title>Viziteaza Neamtul - Cazare</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/stylesMenu.css" rel="stylesheet" type="text/css">
+
+
+        <script type="text/javascript" src="js/menu_jquery.js"></script>
+
+        <!-- fancyBox plugin -->
+        <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+        <link rel="stylesheet" type="text/css" href="fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <script type="text/javascript" src="js/function.js"></script>
+        <!-- /fancyBox plugin -->
+
+        <!-- Widget vreme -->
+        <link href="css/vreme.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src = "js/jquery.zweatherfeed.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#test').weatherfeed(['ROXX0049']);
+            });
+        </script>
+        <!-- /Widget vreme -->
+    </head>
+
+    <body>
+        <div class = "ajust">
+            <header>
+                <section id = "logos">
+                    <div id = "left-logo">
+                        <img src="images/logo1.png" alt = "logo" class = "left-logo">
+                        <img src="images/layout_03.png" alt = "motto" class = "motto">
+                    </div>
+                </section>
+                <nav id='cssmenu'>
+                    <ul>
+                        <li class='active'><a href='index.html'><span>Home</span></a></li>
+                        <li class='has-sub'><a href='obiective.html'><span>Obiective</span></a>
+                            <ul>
+                                <li><a href='agapia.html'><span>Manastirea Agapia</span></a></li>
+                                <li><a href='bistrita.html'><span>Manastirea Bistrita</span></a></li>
+                                <li><a href="varatec.html"><span>Manastirea Varatec</span></a></li>
+                                <li><a href='vanatori.html'><span>Parcul Vanatori</span></a></li>
+                                <li><a href='cetate.html'><span>Cetatea Neamt</span></a></li>
+                                <li class='last'><a href='creanga.html'><span>Casa Ion Creanga</span></a></li>
+                            </ul>
+                        </li>
+                        <li><a href='galerie.html'><span>Galerie Foto</span></a></li>
+                        <li><a href='cazare.html'><span>Cazare</span></a></li>
+                        <li class='last'><a href='contact.html'><span>Contact</span></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id = "content">
+                <section id = "main">
+                    <section>
+                        <h1>Asteptam opiniile dumneavoastra</h1>
+                         <form class = "contact">
+                <p><label>
+                  <!--    Nume: <span class = "nume1"><input type="text" name = "Nume" class = "nume"></span> -->
+                    <h6><span>Nume:</span><input type="text" name = "Nume" class = "input"></h6>
+                </label>
+                </p>
+                <p>
+                <label>
+                   <!-- Prenume: <span class = "nume2"><input type="text" name = "Prenume" class = "nume"></span> -->
+                   <h6><span>Prenume: </span><input type="text" name = "Prenume" class = "input"></h6> 
+                </label>
+                </p>
+                <p>
+                    <label>
+                       <!-- Email: <span class = "EML"><input type="email" name = "Email" class = "nume"></span> -->
+                       <h6><span>Email: </span><input type="email" name = "email" class = "input"></h6>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Mesajul dumneavoastra:<br /> <span class = "nume4"><textarea rows="25" cols="63"  class = "nume"></textarea></span>
+                    </label>
+                </p>
+                             <label>
+                        <button type="submit">Trimite Formular</button>
+                    </label>
+                    <label><button type="reset">Reseteaza</button></label>
+                            
+                        </form>
+                        <div class = "clear">&nbsp;</div>
+                    </section>
+                </section>
+                <footer>
+                    &copy; 2014 Timofte Bogdan Mihai - Grupa 233 <br />Laborator Laborator Tehnici Web 
+                    <div class = "clear">&nbsp;</div>
+                </footer>
+                <aside class = "sidebar">
+                    <h4>Primeste articolele noastre prin email</h4>
+                    <form class = "feed">
+                        <p class = "laCentru">Pentru a primi articolele noastre te rugam sa introduci adresa de email</p>
+                        <input type="email" value=""> <br />
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <iframe width="250" height="200" src="http://www.youtube.com/embed/7EX-LwW5jLY" allowfullscreen class="embed clip"></iframe>
+                    <h4>Keep in touch</h4>
+                    <p><a href = "#" class = "socialMedia" ><img src = "images/facebook.svg" alt="facebook profile"></a>
+                        <a href = "#" class = "socialMedia" ><img src = "images/twitter.svg" alt="twitter profile"></a> 
+                        <a href = "#" class = "socialMedia" ><img src = "images/instagram.svg" alt="instagram profile"></a>    
+                    </p>
+                    <h4>Vremea</h4>
+                    <p id = "test"></p>
+                    <br />
+                </aside>
+            </section>
+
+        </div>
+    </body>
+</html>
