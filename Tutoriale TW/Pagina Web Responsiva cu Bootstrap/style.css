@@ -1,0 +1,9 @@
+/* Stil css personalizat */
+.distanta{
+	margin-bottom:25%;
+}
+@media (max-width: 600px) and (min-width: 300px){
+	.disp-la-rez-mici{
+		display:none;
+	}
+}

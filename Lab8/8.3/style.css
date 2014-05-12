@@ -1,0 +1,11 @@
+/* Stil css */
+body {
+	border: black thin solid;
+	width:1300px;
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#patrat{
+	position:absolute;
+}

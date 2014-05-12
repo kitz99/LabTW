@@ -1,0 +1,33 @@
+.init{
+  			width:450px;
+  			height:450px;
+}
+form{
+	position: absolute;
+	top: 90px;
+	left: 590px;
+	border:#444 thin solid;
+	border-radius: 5px;
+}
+#username{
+	margin-left:72px;
+}
+#culoare{
+	margin-left:72px;
+}
+#dificultate{
+	margin-left:72px;
+}
+#butoane{
+	position:absolute;
+	top: 250px;
+	left: 590px;
+}
+#label{
+	position:absolute;
+	left: 668px;
+	top: 5px;
+	color: red;
+	font-size: 2em;
+	font-weight: bold;
+}
